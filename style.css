@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+.logo{
+    width: 20%;
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 33%;
+    border: 3px solid white;
+    border-radius: 50%;
+}
+.nav-list{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+.nav-list{
+    list-style: none;
+    padding: 26px 30px;
+}
+.nav-list li a:hover{
+    text-decoration: none;
+    color: gray;
+}
+.rightNav{
+    width: 50%;
+    text-align: right;
+    padding: 0 23px;
+}
+#search{
+    padding: 5px;
+    font-size: 17px;
+    border: 2px brown;
+    border-radius: 9px;
+}
+.background{
+    background: url('../quanta2.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.firstsection{
+    height: 100vh;
+}
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: lightseagreen;
+    font-family: 'Times New Roman', Times, serif;
+    max-width: 50%;
+    margin: auto;
+    height: 80%;
+}
+.firstHalf{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.secondHalf{
+    width: 30%;
+}
+.secondHalf img{
+    width: 70%;
+    display: block;
+    border: 4px solid white;
+    border-radius: 150px;
+    margin: auto;
+}
+.text-big{
+    font-size: 41px;
+}
+.text-small{
+    font-size: 15px;
+}
+.btn{
+    padding: 8px 20px;
+    margin: 7px 3px;
+    border: 2px double blue;
+    border-radius: 8px;
+    background: none;
+    color:aqua;
+    cursor: pointer;
+    font-weight: bolder;
+}
